@@ -1,16 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main()
-
-{
-	int t = 0;
-	for (int i = 1; i < 9; i++)
-	{	
-		for (int a = 1; a < 9; a++)
-
-		{	t = i * a;
-			cout << a << "x" << i << "=" << t << "	";
+int main(){
+	for (int i = 1; i <= 9; i++){	
+		for (int a = 1; a <= 9; a++){
+			cout << i << "x" << a << "=" << a*i << "	";
 		}
 		cout << endl;
 	}
